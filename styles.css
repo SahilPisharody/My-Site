@@ -1,0 +1,228 @@
+.header {
+
+    background-image: url("CSS - My Site Images/6213932.jpg");
+    position: relative;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+
+}
+/*
+.middle {
+background-color: #A0D995;
+width: 200px;
+height: 200px;
+}
+.bottom {
+background-color: #6CC4A1;
+width: 200px;
+height: 200px;
+}
+*/
+
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    text-align: center;
+
+}
+
+h1 {
+    margin: auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 8rem;
+    color: #3B3B3B;
+
+}#1363DF
+
+h2 {
+    font-weight: 400;
+    color: #0AA1DD;
+}
+
+h3 {
+    color: #0AA1DD;
+}
+.describe {
+    text-align: center;
+    font-family: 'Alef', cursive;
+    color: #3B3B3B;
+    font-size: 2rem;
+}
+.cloud2 {
+    position: absolute;
+    top: 300px;
+    left: 300px;
+
+}
+.img1 {
+    margin: 0;
+    width: 100%;
+
+}
+hr {
+    border-color: #92A9BD;
+    border-style: none none dotted none;
+    border-width: 5px;
+    width: 5%;
+}
+.skill-heading {
+        font-size: 2rem;
+            margin: 50px;
+
+}
+.skill-row {
+    width: 50%;
+    margin: 50px auto 50px auto;
+    text-align: left;
+    line-height: 2;
+}
+.skill-img-left {
+    width: 25%;
+    float: left;
+    margin-right: 50px;
+}
+.skill-img-right {
+    width: 25%;
+    float: right;
+    margin-left: 50px;
+}
+skill-para {
+    font-size: 0.8rem;
+
+
+}
+p {
+    margin: 0;
+    color: #40514E;
+
+}
+.skills {
+    position: relative;
+    font-family: 'Alef', sans-serif;
+    background-image:url("images/background.jpg");
+
+}
+.profile {
+    font-family: 'Alef', sans-serif;
+    font-size: 120%;
+        margin: 50px;
+
+}
+.profile-pic {
+    margin-top: 50px;
+
+
+}
+.profile-desc {
+    width: 50%;
+    margin: auto;
+    line-height: 2;
+}
+/* --------------------------------Contact me button--------------------------------- */
+.btn {
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #0AA1DD;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #0AA1DD;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Alef', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 50px auto 100px auto;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 20%;
+  will-change: transform;
+
+}
+.btn:disabled {
+  pointer-events: none;
+
+
+}
+.btn:hover {
+  color: #fff;
+  background-color: #0AA1DD;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+.btn:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+/* --------------------------------CSS--------------------------------- */
+/* --------------------------------Footer--------------------------------- */
+.footer {
+    min-height: 100%;
+    margin-top: 70px;
+  position: relative;
+  /* top: 50%;*/
+
+  }
+.bottom-container {
+    font-size: 1rem;
+    line-height: 2;
+      transform: translate(0%, -100%);
+      margin: auto;
+      overflow-y: hidden;
+
+
+}
+.contact {
+    font-size: 4rem;
+    font-weight: 1000;
+
+}
+.copyright {
+color: #EAF6F6;
+font-size: 0.75rem;
+margin-top: 30px;
+
+}
+/* --------------------------------footer-link--------------------------------- */
+
+.footer-link {
+  position: relative;
+  text-decoration: none;
+  color: #0AA1DD;
+  margin: 0 30px 0 30px;
+
+}
+.footer-link::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #0AA1DD;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+  }
+.footer-link:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+
+http://www.yoursite.com/CSS - My Site Images/background.jpg
